@@ -18,6 +18,7 @@
   "homepage": "https://github.com/coemacfarlane/pollinator-charts#readme",
   "dependencies": {
     "bootstrap": "^4.5.3",
+    "c3": "^0.7.20",
     "jquery": "^3.5.1"
   }
 }

@@ -11,22 +11,52 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    <section class="container">
         <div class="row">
             <div class="col-md-12">
                 <h1>Bee Populations in Southwest Louisiana</h1>
                 <p>The coastal prairie of Louisiana is classified as a Tier 1 Habitat in the Louisiana Department of Wildlife and Fisheries’ Wildlife Action Plan, meaning that it is a priority habitat of primary conservation concern. Declines in pollinator populations worldwide have prompted questions about the role of such grasslands as habitat for pollinators. In this study, we surveyed bee populations and the plant communities present in the following three grassland types in southwest Louisiana: prairie remnants, restored prairies, and old fields.</p>
             </div>
         </div>
-    </div>    
+    </section>
+    
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <table class="data-table" >
+                    <thead>
+                        <tr>
+                            <th>Specimen ID</th>
+                            <th>Location</th>
+                            <th>Latitude</th>
+                            <th>Longitude</th>
+                            <th>Date</th>
+                            <th>Collected InOn</th>
+                            <th>Collectors</th>
+                            <th>Sex</th>
+                            <th>Family</th>
+                            <th>Scientific Name</th>
+                            <th>Common Name</th>
+                            <th>ID by</th>
+                            <th>Notes</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
 </body>
 
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="//cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+<script type="module" src="js/view.js"></script>
+<script type="module" src="js/script.js"></script>
+<script src="//cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script> <!--https://datatables.net/-->
 <script src="d3/d3.min.js"></script>
 <script src="c3-0.7.20/c3.min.js"></script>
-<script src="script.js"></script>
+
 
 </html>

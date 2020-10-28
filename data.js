@@ -1,4 +1,4 @@
-[
+export var a = [
   {
     "Specimen ID": 1500001,
     "Location": "Cajun Prairie Farms old field",
